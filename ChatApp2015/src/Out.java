@@ -26,8 +26,7 @@ public class Out extends Thread {
 					while (true) {
 						you_name();
 					}
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
+				} catch (IOException e) {	
 					e.printStackTrace();
 				}
 			}
